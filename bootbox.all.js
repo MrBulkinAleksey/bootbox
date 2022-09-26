@@ -347,7 +347,7 @@
       }
 
       /* Note: the close button for Bootstrap 5+ does not contain content */
-      if(options.bootstrap < 4){
+      if(options.bootstrap > 3){
         dialog.find('.modal-header').append(clsbtn);
       }
       else {
@@ -1188,7 +1188,7 @@
 }));
 ;/*! @preserve
  * bootbox.locales.js
- * version: 5.5.2
+ * version: 5.5.3
  * author: Nick Payne <nick@kurai.co.uk>
  * license: MIT
  * http://bootboxjs.com/
